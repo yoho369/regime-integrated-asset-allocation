@@ -4,7 +4,7 @@ This repository contains a dynamic, cross-asset portfolio allocation framework t
 
 Traditional portfolio implementations suffer from well-documented flaws: Mean-Variance Optimization (MVO) acts as an "error maximizer" vulnerable to parameter instability, while Risk Parity frameworks inherently ignore return expectations. This research bridges the gap by mapping alternative macro indicators into regime probabilities, filtering for conviction, and injecting those signals directly into classic allocation optimizers.
 
-## The full research report is available [HERE](https://github.com/yoho369/regime-integrated-asset-allocation/blob/main/Regime-Integrated%20Cross-Asset%20Allocation%20Using%20Alternative%20Macro%20Data.pdf) (last updated on May 30, 2026) 
+## The full research report is available [HERE](https://github.com/yoho369/regime-integrated-asset-allocation/blob/main/Regime-Integrated%20Cross-Asset%20Allocation%20Using%20Alternative%20Macro%20Data.pdf) (last updated on June 03, 2026) 
 
 ---
 
