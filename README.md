@@ -12,6 +12,7 @@ Traditional portfolio implementations suffer from well-documented flaws: Mean-Va
 The execution engine translates raw macroeconomic data into executable portfolio weights through three operational layers:
 
 ### Feature Space: Alternative Macro Data
+
 Instead of relying purely on backward-looking price action, the model ingests a 16-factor feature space covering real-time and forward-looking economic indicators. 
 * **Growth:** Real-time Sahm Rule Recession Indicator.
 * **Uncertainty:** Global Economic Policy Uncertainty (GEPU) Index.
@@ -34,7 +35,7 @@ To protect downstream optimizers from trading on low-confidence noise, the frame
 The framework was tested using a walk-forward out-of-sample approach across a 12-asset global universe, applying a conservative 10 bps transaction fee to all rebalancing turns.
 
 ### Generating "Crisis Alpha" Post-2020
-During the low-volatility 2016-2019 window, the machine learning architectures closely mirrored passive baselines. However, following the shocks in 2020 and 2022, the macro landscape became more volatile. The regime framework thrived in this chaotic environment, executing timely capital rotations that generated sustained outperformance.
+During the low-volatility 2016-2019 window, the machine learning architectures closely mirrored passive baselines. However, following the shocks in 2020 and 2022, the macro landscape became more volatile. The conviction probabilities indeed are more frequently in the 0.4-0.6 range, hinting at higher uncertainty predicted by the model. The filtering approach manages to adopt high-conviction signals for the portfolio, and execute timely and effective capital rotations that generate sustained outperformance.
 
 ### Net Performance Comparison
 The integration of the 10% Filtered ML signal delivered systematic out-of-sample improvements across portfolio architectures. 
@@ -50,6 +51,9 @@ The integration of the 10% Filtered ML signal delivered systematic out-of-sample
 
 ---
 <img width="4363" height="2672" alt="Ensemble_SHAP_Matrix" src="https://github.com/user-attachments/assets/9b7a24a5-37cd-4c58-a1ff-b141b96e844d" />
+<img width="5377" height="2671" alt="Ensemble_Regime_Heatmap" src="https://github.com/user-attachments/assets/7c2f3ea5-6a04-41eb-aa96-765cacf2d434" />
+
+<img width="4169" height="6486" alt="Portfolio_5Panel_Gross_Log" src="https://github.com/user-attachments/assets/ab3a0450-e1ea-4ba9-81fa-58af86b25ea8" />
 <img width="4169" height="6486" alt="Portfolio_5Panel_Net_Log" src="https://github.com/user-attachments/assets/fc717cbf-6b7f-4741-af34-c36debf9958b" />
 
 
