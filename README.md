@@ -1,3 +1,4 @@
+
 # Regime-Integrated Cross-Asset Allocation: A Machine Learning Overlay with Alternative Macro Data
 
 Traditional portfolio implementations suffer from well-documented flaws: Mean-Variance Optimization (MVO) acts as an "error maximizer" vulnerable to parameter instability, while Risk Parity frameworks inherently ignore return expectations. This research bridges the gap by mapping alternative macro indicators into regime probabilities, filtering for conviction, and injecting those signals directly into classic allocation optimizers.
@@ -48,6 +49,8 @@ The integration of the 10% Filtered ML signal delivered systematic out-of-sample
 | **Pure ML Stat-Arb** | ML Filtered | **11.82%** | **0.91** | **-22.69%** | 320.5% |
 
 ---
+<img width="4363" height="2672" alt="Ensemble_SHAP_Matrix" src="https://github.com/user-attachments/assets/9b7a24a5-37cd-4c58-a1ff-b141b96e844d" />
+<img width="4169" height="6486" alt="Portfolio_5Panel_Net_Log" src="https://github.com/user-attachments/assets/fc717cbf-6b7f-4741-af34-c36debf9958b" />
 
 
 ## 3. Repository Directory Structure
